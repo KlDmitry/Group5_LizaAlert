@@ -1,0 +1,24 @@
+.card__title { 
+    width: 100px;
+    margin: auto 0px auto auto;
+}
+   
+.card__title::after {
+    content: url(../../../image/icon__accordion__closed.svg); 
+    float: right; 
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    top: 40px;
+    transition: all 0.5s
+}
+
+.card :checked + .card__title {
+    color: #fff; 
+    transition: all 0.5s
+}
+   
+.card :checked + .card__title::after {
+    content: url(../../../image/icon__accordion__opened.svg); 
+    transition: all 0.5s
+}

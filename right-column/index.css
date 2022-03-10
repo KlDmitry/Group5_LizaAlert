@@ -1,0 +1,28 @@
+/* Fonts */
+@import url(./fonts.css);
+
+
+/* Navigation */
+
+@import url(./blocks/navigation/__title/navigation__title.css);
+@import url(./blocks/navigation/navigation.css);
+
+
+/* Card */
+
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__content/card__content.css);
+@import url(./blocks/card/__input/card__input.css);
+@import url(./blocks/card/__list-item/card__list-item.css);
+@import url(./blocks/card/__list-link/card__list-link.css);
+@import url(./blocks/card/__list-link/_chek/card__list-link_chek.css);
+@import url(./blocks/card/__list-pic/card__list-pic.css);
+@import url(./blocks/card/__list-pic/_leson/card__list-pic_leson.css);
+@import url(./blocks/card/__list-pic/_cheked/card__list-pic_cheked.css);
+@import url(./blocks/card/__list/card__list.css);
+@import url(./blocks/card/__subtitle/card__subtitle.css);
+@import url(./blocks/card/__list-pic/_test/card__list-pic_test.css);
+@import url(./blocks/card/__test-on/card__test-on.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__list-pic/_video-on/card__list-pic_video-on.css);
+

@@ -1,0 +1,10 @@
+.card__subtitle {
+    font-family: 'Golos', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+    width: 328px;
+    margin-bottom: 0px;
+}

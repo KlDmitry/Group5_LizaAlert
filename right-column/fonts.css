@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Golos";
+    src: 
+    url(../Fonts/Golos-Text_Bold.woff) format('woff'),
+    url(../Fonts/Golos-Text_Bold.woff2) format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: 
+    url(../Fonts/Golos-Text_Regular.woff) format('woff'),
+    url(../Fonts/Golos-Text_Regular.woff2) format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: 
+    url(../Fonts/Golos-Text_DemiBold.woff) format('woff'),
+    url(../Fonts/Golos-Text_DemiBold.woff2) format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: 
+    url(../Fonts/Golos-Text_Black.woff) format('woff'),
+    url(../Fonts/Golos-Text_Black.woff2) format('woff2');
+    font-weight: 900;
+}

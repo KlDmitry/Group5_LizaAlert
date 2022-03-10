@@ -1,0 +1,9 @@
+.card__list-item {
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 18px;
+}
+
+.card__list-item:last-child{
+    margin-bottom: 0px;
+}
