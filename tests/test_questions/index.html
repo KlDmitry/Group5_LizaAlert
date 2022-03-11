@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест вопросы</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <section class="test">
+        <div class="test__container">
+            <div class="test__header">
+                <h3 class="test__title">Тест</h3>
+                <button class="test__header-button" type="button">Посмотреть условия</button>
+            </div>
+            <div class="questions-container">
+                <form class="first-question__form">
+                    <p class="first-question__text">1. В каких случаях перспективно применение следовых кинологических
+                        расчётов?</p>
+                    <label for="first-question__answer_1" class="first-question__label">
+                    <input type="checkbox" name="answer-check" id="first-question__answer_1"
+                        class="answer__input answer__input-checkbox" value="first-question__answer">
+                    <span class="answer__item answer__item_type_checkbox"></span>
+                    <span class="answer__text" id="answer__text_1">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+                    </label>
+                    <label for="first-question__answer_2" class="first-question__label">
+                        <input type="checkbox" name="answer-check" id="first-question__answer_2"
+                            class="answer__input answer__input-checkbox" value="first-question__answer">
+                        <span class="answer__item answer__item_type_checkbox"></span>
+                        <span class="answer__text" id="answer__text_2">Обучение животного идти как по горячему, так и по остывшему
+                            следу</span>
+                    </label>
+                    <label for="first-question__answer_3" class="first-question__label">
+                        <input type="checkbox" name="answer-check" id="first-question__answer_3"
+                            class="answer__input answer__input-checkbox" value="first-question__answer">
+                        <span class="answer__item answer__item_type_checkbox"></span>
+                        <span class="answer__text" id="answer__text_3">Поиск тел и их остатков с применением специально обученных
+                            собак</span>
+                    </label>
+                </form>
+                <form class="second-question__form">
+                    <p class="second-question__text">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
+                    <label for="second-question__answer_1" class="second-question__label">
+                        <input type="radio" name="answer-check" id="second-question__answer_1" class="answer__input answer__input-radiobox"
+                            value="second-question__answer">
+                        <span class="answer__item answer__item_type_radio"></span>
+                        <span class="answer__text" id="answer__text_S1">6 месяцев</span>
+                    </label>
+                    <label for="second-question__answer_2" class="second-question__label">
+                        <input type="radio" name="answer-check" id="second-question__answer_2" class="answer__input answer__input-radiobox"
+                            value="second-question__answer">
+                        <span class="answer__item answer__item_type_radio"></span>
+                        <span class="answer__text" id="answer__text_S2">1–1,5 года</span>
+                    </label>
+                    <label for="second-question__answer_3" class="second-question__label">
+                        <input type="radio" name="answer-check" id="second-question__answer_3" class="answer__input answer__input-radiobox"
+                            value="second-question__answer">
+                        <span class="answer__item answer__item_type_radio"></span>
+                        <span class="answer__text" id="answer__text_S3">3 года</span>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+</body>
+
+</html>
