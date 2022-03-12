@@ -106,4 +106,18 @@
 @import url(../blocks/answer/__item/_type/answer__item_type_radio.css);
 @import url(../blocks/answer/__input-radiobox/answer__input-radiobox.css);
 
+/* buttons */
+
+@import url(../blocks/buttons/buttons.css);
+@import url(../blocks/buttons/__container/buttons__container.css);
+@import url(../blocks/buttons/__vector-again/buttons__vector-again.css);
+@import url(../blocks/buttons/__vector-back-arrow/buttons__vector-back-arrow.css);
+@import url(../blocks/buttons/__vector-forward-arrow/buttons__vector-forward-arrow.css);
+@import url(../blocks/buttons/_color/_grey/buttons_color_grey.css);
+@import url(../blocks/buttons/_color/_orange/buttons_color_orange.css);
+@import url(../blocks/buttons/_color/_white/buttons_color_white.css);
+@import url(../blocks/buttons/_size/_l/button_size_l.css);
+@import url(../blocks/buttons/_size/_m/button_size_m.css);
+@import url(../blocks/buttons/_size/_s/button_size_s.css);
+
 

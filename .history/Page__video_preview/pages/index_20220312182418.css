@@ -3,17 +3,17 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
-/* results */
+/* video */
 
-@import url(../blocks/results/results.css);
-@import url(../blocks/results/__bad/results__bad.css);
-@import url(../blocks/results/__good/results__good.css);
-@import url(../blocks/results/__score/results__score.css);
-@import url(../blocks/results/__score/_type/results__score_type_bad.css);
-@import url(../blocks/results/__score/_type/results__score_type_good.css);
-@import url(../blocks/results/__text/results__text.css);
-@import url(../blocks/results/__text/_type/result__text_type_bad.css);
-@import url(../blocks/results/__text/_type/result__text_type_good.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__button/video__button.css);
+@import url(../blocks/video/__button/_type/video__button_type_play.css);
+@import url(../blocks/video/__button/_type/video__button_type_sound.css);
+@import url(../blocks/video/__button/_type/video__button_type_timeline.css);
+@import url(../blocks/video/__button/_type/video__button_type_size.css);
+@import url(../blocks/video/__button/_type/video__button_type_sound-icon.css);
+@import url(../blocks/video/__player/video__player.css);
+@import url(../blocks/video/__title/video__title.css);
 
 /* breadcrumbs */
 
@@ -59,41 +59,6 @@
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
 @import url(../blocks/menu/__icon/menu__icon.css);
 
-/* test */
-
-@import url(../blocks/test/test.css);
-@import url(../blocks/test/__container/test__container.css);
-@import url(../blocks/test/__title/test__title.css);
-@import url(../blocks/test/__header/test__header.css);
-@import url(../blocks/test/__header-button/test__header-button.css);
-
-/* questions-container */
-
-@import url(../blocks/questions-container/questions-container.css);
-
-/* first-question */
-
-@import url(../blocks/first-question/__form/first-question__form.css);
-@import url(../blocks/first-question/__text/first-question__text.css);
-@import url(../blocks/first-question/__label/first-question__label.css);
-
-/* second-question */
-
-@import url(../blocks/second-question/__form/second-question__form.css);
-@import url(../blocks/second-question/__text/second-question__text.css);
-@import url(../blocks/second-question/__label/second-question__label.css);
-
-/* answer */
-
-@import url(../blocks/answer/__input/answer__input.css);
-@import url(../blocks/answer/__input-checkbox/answer__input-checkbox.css);
-@import url(../blocks/answer/__item/answer__item.css);
-@import url(../blocks/answer/__item/_type/answer__item_type_checkbox.css);
-@import url(../blocks/answer/__text/answer__text.css);
-@import url(../blocks/answer/__text/_checked/answer__text_checked.css);
-@import url(../blocks/answer/__item/_type/answer__item_type_radio.css);
-@import url(../blocks/answer/__input-radiobox/answer__input-radiobox.css);
-
 /* buttons */
 
 @import url(../blocks/buttons/buttons.css);
@@ -107,3 +72,5 @@
 @import url(../blocks/buttons/_size/_l/button_size_l.css);
 @import url(../blocks/buttons/_size/_m/button_size_m.css);
 @import url(../blocks/buttons/_size/_s/button_size_s.css);
+
+
