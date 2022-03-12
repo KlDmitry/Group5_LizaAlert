@@ -1,0 +1,11 @@
+.card__content {
+    overflow: hidden;
+    max-height: 0px;
+    margin-top: 32px;
+    transition: all 0.7s
+}
+   
+.card :checked ~ .card__content {
+    max-height: 1683px;
+    transition: all 2s
+}
