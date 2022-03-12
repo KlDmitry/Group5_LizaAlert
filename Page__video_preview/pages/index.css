@@ -15,18 +15,6 @@
 @import url(../blocks/video/__player/video__player.css);
 @import url(../blocks/video/__title/video__title.css);
 
-/* results */
-
-@import url(../blocks/results/results.css);
-@import url(../blocks/results/__bad/results__bad.css);
-@import url(../blocks/results/__good/results__good.css);
-@import url(../blocks/results/__score/results__score.css);
-@import url(../blocks/results/__score/_type/results__score_type_bad.css);
-@import url(../blocks/results/__score/_type/results__score_type_good.css);
-@import url(../blocks/results/__text/results__text.css);
-@import url(../blocks/results/__text/_type/result__text_type_bad.css);
-@import url(../blocks/results/__text/_type/result__text_type_good.css);
-
 /* breadcrumbs */
 
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
@@ -71,5 +59,18 @@
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
 @import url(../blocks/menu/__icon/menu__icon.css);
 
+/* buttons */
+
+@import url(../blocks/buttons/buttons.css);
+@import url(../blocks/buttons/__container/buttons__container.css);
+@import url(../blocks/buttons/__vector-again/buttons__vector-again.css);
+@import url(../blocks/buttons/__vector-back-arrow/buttons__vector-back-arrow.css);
+@import url(../blocks/buttons/__vector-forward-arrow/buttons__vector-forward-arrow.css);
+@import url(../blocks/buttons/_color/_grey/buttons_color_grey.css);
+@import url(../blocks/buttons/_color/_orange/buttons_color_orange.css);
+@import url(../blocks/buttons/_color/_white/buttons_color_white.css);
+@import url(../blocks/buttons/_size/_l/button_size_l.css);
+@import url(../blocks/buttons/_size/_m/button_size_m.css);
+@import url(../blocks/buttons/_size/_s/button_size_s.css);
 
 
