@@ -1,0 +1,11 @@
+.breadcrumbs__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
+}
+.breadcrumbs__text:nth-of-type(4){
+    color: #9397A3;
+}
