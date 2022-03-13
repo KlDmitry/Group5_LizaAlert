@@ -1,0 +1,12 @@
+.card__list-pic {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4px 10px 0px 0px;
+    background-position: center;
+    object-fit: contain;
+    vertical-align: top;
+}
