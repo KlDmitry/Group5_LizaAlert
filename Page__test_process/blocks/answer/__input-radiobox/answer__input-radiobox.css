@@ -1,0 +1,3 @@
+.answer__input-radiobox:checked + .answer__item_type_radio {
+background-image: url(../../../images/answer_radiobox_checked.svg);
+}
