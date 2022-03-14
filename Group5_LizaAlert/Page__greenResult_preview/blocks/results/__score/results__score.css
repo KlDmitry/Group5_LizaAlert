@@ -1,0 +1,9 @@
+.results__score {
+  font-family: "GolosTextWebRegular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  margin: 32px 64px 24px 64px;
+}

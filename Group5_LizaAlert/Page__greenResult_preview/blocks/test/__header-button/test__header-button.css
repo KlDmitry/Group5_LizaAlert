@@ -1,0 +1,10 @@
+.test__header-button {
+    border: none;
+    background-color: inherit;
+    width: 185px;
+    height: 28px;
+    cursor: pointer;
+}
+.test__header-button:hover {
+    text-decoration: underline;
+}

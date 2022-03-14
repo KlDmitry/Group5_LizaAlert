@@ -1,0 +1,9 @@
+.answer__text {
+    cursor: pointer;
+    padding-left: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+}
