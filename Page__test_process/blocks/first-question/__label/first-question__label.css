@@ -1,0 +1,13 @@
+.first-question__label {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 16px;
+    align-items: center;
+    
+}
+.first-question__label:first-of-type {
+    align-items: flex-start;
+}
+.first-question__label:last-of-type {
+    padding-bottom: 0;
+}

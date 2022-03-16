@@ -1,0 +1,6 @@
+.first-question__form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E6E7EB;
+}

@@ -1,0 +1,7 @@
+.second-question__label {
+    padding-bottom: 12px;
+    align-items: center;
+}
+.second-question__label:last-of-type {
+    padding-bottom: 0;
+}
