@@ -1,3 +1,0 @@
-.answer__input-checkbox:checked + .answer__item_type_checkbox {
-    background-image: url(../../../images/answer_checkbox_checked.svg);
-}
