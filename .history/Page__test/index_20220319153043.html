@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Страница урока / Тест превью</title>
+    <title>Страница урока / О тесте</title>
 </head>
 
 <body class="page">
     <header class="header">
         <a class="header__link" target="_blank" href="#">Учебная платформа</a>
-        <div class="menu">
+        <nav class="menu">
             <ul class="menu__list">
                 <li class="menu__list-item">
                     <a id="courses-page-link" class="menu__link menu__link_active" href="./index.html">
@@ -25,7 +25,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <section class="breadcrumbs">
@@ -34,28 +34,60 @@
             <img class="breadcrumbs__pointer" src="./images/breadcrumbs/Vector.svg" alt="">
             <p class="breadcrumbs__text">Кинологическое направление</p>
             <img class="breadcrumbs__pointer" src="./images/breadcrumbs/Vector.svg" alt="">
-            <p class="breadcrumbs__text">Курс завершен</p>
+            <p class="breadcrumbs__text">5. Работа «второго номера» совместно со следовым кинологическим расчётом</p>
+            <img class="breadcrumbs__pointer" src="./images/breadcrumbs/Vector.svg" alt="">
+            <p class="breadcrumbs__text">Тест</p>
         </div>
     </section>
 
-    <main class="test-preview">
+    <main class="test-about">
         <section class="test">
             <div class="test__container">
-                <p class="table__header">Курс завершен</p>
-                <div class="table__result table__result_type_congratulate">
-                    <h1 class="table__title table__title_type_congratulate">Поздравляем!</h1>
-                    <p class="table__text table__text_type_congratulate">Вы успешно завершили курс
-                        «Кинологическое направление».</p>
-                    <p class="table__text table__text_type_congratulate">Теперь вы можете участвовать
-                        в поисково-спасательных мероприятиях со своей
-                        собакой.</p>
+                <div class="test__header">
+                    <h1 class="test__title">Тест</h1>
+                    <button class="test__header-button" type="button">Вернуться к тесту</button>
                 </div>
+                <p class="test__paragraph">Что мы узнали об особенностях привлечения следовых расчётов
+                    на ПСР и особенностях
+                    взаимодействия между участниками ППС</p>
+                <ul class="test__two-columns">
+                    <li class="test__column-item">
+                        <div class="test__left-column">
+                            <img class="test__column-icon" src="./images/test__icon-check.svg" alt="">
+                            <p class="test__column-text">Проходной балл:</p>
+                        </div>
+                        <div class="test__right-column">
+                            <p class="test__column-text">80%</p>
+                        </div>
+                    </li>
+                    <li class="test__column-item">
+                        <div class="test__left-column">
+                            <img class="test__column-icon" src="./images/test__icon-loading.svg" alt="">
+                            <p class="test__column-text">Количество попыток:</p>
+                        </div>
+                        <div class="test__right-column">
+                            <p class="test__column-text">3</p>
+                        </div>
+                    </li>
+                    <li class="test__column-item">
+                        <div class="test__left-column">
+                            <img class="test__column-icon" src="./images/test__icon-time.svg" alt="">
+                            <p class="test__column-text">Срок сдачи:</p>
+                        </div>
+                        <div class="test__right-column">
+                            <p class="test__column-text">22.02.2022 г. 16:20 (GMT+3)</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
+        </section>
+
         </section>
         <div class="test__buttons-back-next">
             <button type="button" class="buttons buttons_color_white button_size_m"><img
                     class="buttons__vector-back-arrow" src="./images/back-arrow.svg" alt="кнопка назад">Назад</button>
-            <button type="button" class="buttons buttons_color_orange button_size_m">Завершить</button>
+            <button type="button" class="buttons buttons_color_grey button_size_m">Далее<img
+                    class="buttons__vector-forward-arrow" src="./images/forward-grey.svg" alt="кнопка вперед"></button>
         </div>
     </main>
     <aside class="navigation">

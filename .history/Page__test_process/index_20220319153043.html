@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Страница урока / Тест превью</title>
+    <title>Страница урока / Тест</title>
 </head>
 
 <body class="page">
     <header class="header">
         <a class="header__link" target="_blank" href="#">Учебная платформа</a>
-        <div class="menu">
+        <nav class="menu">
             <ul class="menu__list">
                 <li class="menu__list-item">
                     <a id="courses-page-link" class="menu__link menu__link_active" href="./index.html">
@@ -25,7 +25,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <section class="breadcrumbs">
@@ -34,28 +34,81 @@
             <img class="breadcrumbs__pointer" src="./images/breadcrumbs/Vector.svg" alt="">
             <p class="breadcrumbs__text">Кинологическое направление</p>
             <img class="breadcrumbs__pointer" src="./images/breadcrumbs/Vector.svg" alt="">
-            <p class="breadcrumbs__text">Курс завершен</p>
+            <p class="breadcrumbs__text">5. Работа «второго номера» совместно со следовым кинологическим расчётом</p>
+            <img class="breadcrumbs__pointer" src="./images/breadcrumbs/Vector.svg" alt="">
+            <p class="breadcrumbs__text">Тест</p>
         </div>
     </section>
 
-    <main class="test-preview">
+    <main class="test-process">
         <section class="test">
             <div class="test__container">
-                <p class="table__header">Курс завершен</p>
-                <div class="table__result table__result_type_congratulate">
-                    <h1 class="table__title table__title_type_congratulate">Поздравляем!</h1>
-                    <p class="table__text table__text_type_congratulate">Вы успешно завершили курс
-                        «Кинологическое направление».</p>
-                    <p class="table__text table__text_type_congratulate">Теперь вы можете участвовать
-                        в поисково-спасательных мероприятиях со своей
-                        собакой.</p>
+                <div class="test__header">
+                    <h1 class="test__title">Тест</h1>
+                    <button class="test__header-button" type="button">Посмотреть условия</button>
                 </div>
+                <div class="questions-container">
+                    <form class="first-question__form">
+                        <p class="first-question__text">1. В каких случаях перспективно применение следовых
+                            кинологических
+                            расчётов?</p>
+                        <label for="first-question__answer_1" class="first-question__label">
+                            <input type="checkbox" name="answer-check" id="first-question__answer_1"
+                                class="answer__input answer__input-checkbox" value="first-question__answer">
+                            <span class="answer__item answer__item_type_checkbox"></span>
+                            <span class="answer__text" id="answer__text_1">Оказание помощи гражданам, оказавшимся
+                                в зонах бедствия или пропавшим в безлюдной местности</span>
+                        </label>
+                        <label for="first-question__answer_2" class="first-question__label">
+                            <input type="checkbox" name="answer-check" id="first-question__answer_2"
+                                class="answer__input answer__input-checkbox" value="first-question__answer">
+                            <span class="answer__item answer__item_type_checkbox"></span>
+                            <span class="answer__text" id="answer__text_2">Обучение животного идти как по горячему, так
+                                и по остывшему
+                                следу</span>
+                        </label>
+                        <label for="first-question__answer_3" class="first-question__label">
+                            <input type="checkbox" name="answer-check" id="first-question__answer_3"
+                                class="answer__input answer__input-checkbox" value="first-question__answer">
+                            <span class="answer__item answer__item_type_checkbox"></span>
+                            <span class="answer__text" id="answer__text_3">Поиск тел и их остатков с применением
+                                специально обученных
+                                собак</span>
+                        </label>
+                    </form>
+                    <form class="second-question__form">
+                        <p class="second-question__text">2. С какого возраста следует начинать дрессировку по курсу ПСС?
+                        </p>
+                        <label for="second-question__answer_1" class="second-question__label">
+                            <input type="radio" name="answer-check" id="second-question__answer_1"
+                                class="answer__input answer__input-radiobox" value="second-question__answer">
+                            <span class="answer__item answer__item_type_radio"></span>
+                            <span class="answer__text" id="answer__text_S1">6 месяцев</span>
+                        </label>
+                        <label for="second-question__answer_2" class="second-question__label">
+                            <input type="radio" name="answer-check" id="second-question__answer_2"
+                                class="answer__input answer__input-radiobox" value="second-question__answer">
+                            <span class="answer__item answer__item_type_radio"></span>
+                            <span class="answer__text" id="answer__text_S2">1–1,5 года</span>
+                        </label>
+                        <label for="second-question__answer_3" class="second-question__label">
+                            <input type="radio" name="answer-check" id="second-question__answer_3"
+                                class="answer__input answer__input-radiobox" value="second-question__answer">
+                            <span class="answer__item answer__item_type_radio"></span>
+                            <span class="answer__text" id="answer__text_S3">3 года</span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="test__button-show-result">
+                <button type="button" class="buttons buttons_color_grey button_size_l">Показать результат</button>
             </div>
         </section>
         <div class="test__buttons-back-next">
             <button type="button" class="buttons buttons_color_white button_size_m"><img
                     class="buttons__vector-back-arrow" src="./images/back-arrow.svg" alt="кнопка назад">Назад</button>
-            <button type="button" class="buttons buttons_color_orange button_size_m">Завершить</button>
+            <button type="button" class="buttons buttons_color_grey button_size_m">Далее<img
+                    class="buttons__vector-forward-arrow" src="./images/forward-grey.svg" alt="кнопка вперед"></button>
         </div>
     </main>
     <aside class="navigation">
@@ -174,6 +227,7 @@
             </section>
         </div>
     </aside>
+    <script type="text/javascript" src="./scripts/index.js"></script>
 </body>
 
 </html>
