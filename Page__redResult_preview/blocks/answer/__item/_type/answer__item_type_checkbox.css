@@ -1,7 +1,0 @@
-.answer__item_type_checkbox {
-    background-image: url(../../../../images/answer_checkbox.svg);
-    cursor: pointer;
-}
-.answer__item_type_checkbox:first-of-type {
-    margin-top: 2px;
-}

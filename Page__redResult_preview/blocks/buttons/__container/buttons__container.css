@@ -1,8 +1,0 @@
-.buttons__container {
-  display: flex;
-  flex-direction: row;
-  grid-area: content;
-  column-gap: 24px;
-  padding: 56px 32px 0 0;
-  justify-content: flex-end;
-}
