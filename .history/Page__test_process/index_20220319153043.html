@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Страница урока / Тест превью</title>
+    <title>Страница урока / Тест</title>
 </head>
 
 <body class="page">
@@ -40,45 +40,68 @@
         </div>
     </section>
 
-    <main class="test-preview">
+    <main class="test-process">
         <section class="test">
             <div class="test__container">
-                <h1 class="test__title">Тест</h1>
-                <p class="test__paragraph">Что мы узнали об особенностях привлечения следовых расчётов
-                    на ПСР и особенностях
-                    взаимодействия между участниками ППС</p>
-                <ul class="test__two-columns">
-                    <li class="test__column-item">
-                        <div class="test__left-column">
-                            <img class="test__column-icon" src="./images/test__icon-check.svg" alt="">
-                            <p class="test__column-text">Проходной балл:</p>
-                        </div>
-                        <div class="test__right-column">
-                            <p class="test__column-text">80%</p>
-                        </div>
-                    </li>
-                    <li class="test__column-item">
-                        <div class="test__left-column">
-                            <img class="test__column-icon" src="./images/test__icon-loading.svg" alt="">
-                            <p class="test__column-text">Количество попыток:</p>
-                        </div>
-                        <div class="test__right-column">
-                            <p class="test__column-text">3</p>
-                        </div>
-                    </li>
-                    <li class="test__column-item">
-                        <div class="test__left-column">
-                            <img class="test__column-icon" src="./images/test__icon-time.svg" alt="">
-                            <p class="test__column-text">Срок сдачи:</p>
-                        </div>
-                        <div class="test__right-column">
-                            <p class="test__column-text">22.02.2022 г. 16:20 (GMT+3)</p>
-                        </div>
-                    </li>
-                </ul>
-                <div class="test__button-start-test">
-                    <button type="button" class="buttons buttons_color_orange button_size_m">Начать тест</button>
+                <div class="test__header">
+                    <h1 class="test__title">Тест</h1>
+                    <button class="test__header-button" type="button">Посмотреть условия</button>
                 </div>
+                <div class="questions-container">
+                    <form class="first-question__form">
+                        <p class="first-question__text">1. В каких случаях перспективно применение следовых
+                            кинологических
+                            расчётов?</p>
+                        <label for="first-question__answer_1" class="first-question__label">
+                            <input type="checkbox" name="answer-check" id="first-question__answer_1"
+                                class="answer__input answer__input-checkbox" value="first-question__answer">
+                            <span class="answer__item answer__item_type_checkbox"></span>
+                            <span class="answer__text" id="answer__text_1">Оказание помощи гражданам, оказавшимся
+                                в зонах бедствия или пропавшим в безлюдной местности</span>
+                        </label>
+                        <label for="first-question__answer_2" class="first-question__label">
+                            <input type="checkbox" name="answer-check" id="first-question__answer_2"
+                                class="answer__input answer__input-checkbox" value="first-question__answer">
+                            <span class="answer__item answer__item_type_checkbox"></span>
+                            <span class="answer__text" id="answer__text_2">Обучение животного идти как по горячему, так
+                                и по остывшему
+                                следу</span>
+                        </label>
+                        <label for="first-question__answer_3" class="first-question__label">
+                            <input type="checkbox" name="answer-check" id="first-question__answer_3"
+                                class="answer__input answer__input-checkbox" value="first-question__answer">
+                            <span class="answer__item answer__item_type_checkbox"></span>
+                            <span class="answer__text" id="answer__text_3">Поиск тел и их остатков с применением
+                                специально обученных
+                                собак</span>
+                        </label>
+                    </form>
+                    <form class="second-question__form">
+                        <p class="second-question__text">2. С какого возраста следует начинать дрессировку по курсу ПСС?
+                        </p>
+                        <label for="second-question__answer_1" class="second-question__label">
+                            <input type="radio" name="answer-check" id="second-question__answer_1"
+                                class="answer__input answer__input-radiobox" value="second-question__answer">
+                            <span class="answer__item answer__item_type_radio"></span>
+                            <span class="answer__text" id="answer__text_S1">6 месяцев</span>
+                        </label>
+                        <label for="second-question__answer_2" class="second-question__label">
+                            <input type="radio" name="answer-check" id="second-question__answer_2"
+                                class="answer__input answer__input-radiobox" value="second-question__answer">
+                            <span class="answer__item answer__item_type_radio"></span>
+                            <span class="answer__text" id="answer__text_S2">1–1,5 года</span>
+                        </label>
+                        <label for="second-question__answer_3" class="second-question__label">
+                            <input type="radio" name="answer-check" id="second-question__answer_3"
+                                class="answer__input answer__input-radiobox" value="second-question__answer">
+                            <span class="answer__item answer__item_type_radio"></span>
+                            <span class="answer__text" id="answer__text_S3">3 года</span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="test__button-show-result">
+                <button type="button" class="buttons buttons_color_grey button_size_l">Показать результат</button>
             </div>
         </section>
         <div class="test__buttons-back-next">
@@ -204,6 +227,7 @@
             </section>
         </div>
     </aside>
+    <script type="text/javascript" src="./scripts/index.js"></script>
 </body>
 
 </html>
